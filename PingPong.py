@@ -246,5 +246,5 @@ def update():
         else:
             if myScore < 5 and pcScore < 5:
                 clock.schedule(reset, 1)
-                gameStart = True # Q1. if it is in the reset fucntion then it's not working, why?
+                gameStart = True
 
